@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anàlisi d'un pressupost públic · Masquefa</title>
-<meta name="description" content="Treball de Recerca: anàlisi del pressupost municipal de Masquefa (2024-2026) confrontat amb la percepció ciutadana recollida en una enquesta pròpia.">
+<title data-i18n="meta_title">Anàlisi d'un pressupost públic · Masquefa</title>
+<meta name="description" data-i18n-attr-content="meta_description" content="Treball de Recerca: anàlisi del pressupost municipal de Masquefa (2024-2026) confrontat amb la percepció ciutadana recollida en una enquesta pròpia.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="manifest" href="manifest.json">
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<a class="visually-hidden" href="#main">Anar al contingut</a>
+<a class="visually-hidden" href="#main" data-i18n="nav_projecte" style="position:absolute;left:-999px;">Anar al contingut</a>
 
 <header class="topnav">
   <div class="wrap">
@@ -28,17 +28,26 @@
     </a>
     <nav>
       <ul class="nav-links">
-        <li><a href="#projecte">El projecte</a></li>
-        <li><a href="#pressupost">Pressupost</a></li>
-        <li><a href="#arees">Àrees clau</a></li>
-        <li><a href="#enquesta">Enquesta</a></li>
-        <li><a href="#comparativa">Comparativa</a></li>
-        <li><a href="#metodologia">Metodologia</a></li>
+        <li><a href="#projecte" data-i18n="nav_projecte">El projecte</a></li>
+        <li><a href="#pressupost" data-i18n="nav_pressupost">Pressupost</a></li>
+        <li><a href="#arees" data-i18n="nav_arees">Àrees clau</a></li>
+        <li><a href="#enquesta" data-i18n="nav_enquesta">Enquesta</a></li>
+        <li><a href="#comparativa" data-i18n="nav_comparativa">Comparativa</a></li>
+        <li><a href="#metodologia" data-i18n="nav_metodologia">Metodologia</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Obrir menú" aria-expanded="false">
-      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 4h16M1 9h16M1 14h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    </button>
+    <div style="display:flex; align-items:center; gap:.6rem;">
+      <select id="lang-switch" aria-label="Idioma / Language" style="font-family:var(--font-mono); font-size:.78rem; background:var(--bg-card); color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:.4rem .5rem; cursor:pointer;">
+        <option value="ca">CA</option>
+        <option value="es">ES</option>
+        <option value="en">EN</option>
+        <option value="eu">EU</option>
+        <option value="gl">GL</option>
+      </select>
+      <button class="nav-toggle" aria-label="Obrir menú" aria-expanded="false" data-i18n-attr-aria-label="nav_menu_label">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 4h16M1 9h16M1 14h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -48,22 +57,22 @@
   <section class="hero" id="top">
     <div class="wrap">
       <div>
-        <p class="eyebrow">Treball de Recerca · Institut de Masquefa · 2025–2027</p>
-        <h1>El pressupost diu una cosa. <em>La ciutadania en percep una altra.</em></h1>
-        <p class="lede">Una anàlisi del pressupost municipal de Masquefa (2024–2026), euro a euro, confrontada amb la percepció real de 141 veïns i veïnes recollida a través d'una enquesta pròpia.</p>
+        <p class="eyebrow" data-i18n="hero_eyebrow">Treball de Recerca · Institut de Masquefa · 2025–2027</p>
+        <h1><span data-i18n="hero_title_plain">El pressupost diu una cosa. </span><em data-i18n="hero_title_em">La ciutadania en percep una altra.</em></h1>
+        <p class="lede" data-i18n="hero_lede">Una anàlisi del pressupost municipal de Masquefa (2024–2026), euro a euro, confrontada amb la percepció real de 141 veïns i veïnes recollida a través d'una enquesta pròpia.</p>
         <div class="hero-stats">
-          <div class="stat"><b>17,34 M€</b><span>Pressupost 2026</span></div>
-          <div class="stat"><b>141</b><span>Respostes a l'enquesta</span></div>
-          <div class="stat"><b>3</b><span>Exercicis analitzats (2024–26)</span></div>
+          <div class="stat"><b>17,34 M€</b><span data-i18n="hero_stat1_label">Pressupost 2026</span></div>
+          <div class="stat"><b>141</b><span data-i18n="hero_stat2_label">Respostes a l'enquesta</span></div>
+          <div class="stat"><b>3</b><span data-i18n="hero_stat3_label">Exercicis analitzats (2024–26)</span></div>
         </div>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#pressupost">Veure el pressupost</a>
-          <a class="btn btn-ghost" href="#comparativa">Percepció vs realitat</a>
+          <a class="btn btn-primary" href="#pressupost" data-i18n="hero_cta_primary">Veure el pressupost</a>
+          <a class="btn btn-ghost" href="#comparativa" data-i18n="hero_cta_secondary">Percepció vs realitat</a>
         </div>
       </div>
       <div class="stamps" aria-hidden="true">
-        <div class="stamp stamp-real"><span class="k">Dades oficials</span><span class="v">Pressupost real</span></div>
-        <div class="stamp stamp-perc"><span class="k">Enquesta n=141</span><span class="v">Percepció ciutadana</span></div>
+        <div class="stamp stamp-real"><span class="k" data-i18n="hero_stamp_real_k">Dades oficials</span><span class="v" data-i18n="hero_stamp_real_v">Pressupost real</span></div>
+        <div class="stamp stamp-perc"><span class="k" data-i18n="hero_stamp_perc_k">Enquesta n=141</span><span class="v" data-i18n="hero_stamp_perc_v">Percepció ciutadana</span></div>
       </div>
     </div>
   </section>
@@ -72,25 +81,25 @@
   <section id="projecte">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="eyebrow">01 · El projecte</p>
-        <h2>Per què val la pena mirar un pressupost municipal</h2>
-        <p>Darrere de cada xifra hi ha una decisió política. Aquest treball parteix de la hipòtesi que hi ha una diferència significativa entre les prioritats que percep la població i les decisions reals que es reflecteixen en els pressupostos de l'Ajuntament de Masquefa.</p>
+        <p class="eyebrow" data-i18n="proj_eyebrow">01 · El projecte</p>
+        <h2 data-i18n="proj_h2">Per què val la pena mirar un pressupost municipal</h2>
+        <p data-i18n="proj_p">Darrere de cada xifra hi ha una decisió política. Aquest treball parteix de la hipòtesi que hi ha una diferència significativa entre les prioritats que percep la població i les decisions reals que es reflecteixen en els pressupostos de l'Ajuntament de Masquefa.</p>
       </div>
       <div class="grid grid-3">
         <div class="card reveal">
-          <h3>Municipi</h3>
-          <div class="num">10.330 hab.</div>
-          <p>Masquefa (Anoia, Barcelona) creix entre 200 i 225 persones cada any. La taxa d'atur se situa al 8,2%, amb tendència a la baixa.</p>
+          <h3 data-i18n="proj_card1_h3">Municipi</h3>
+          <div class="num" data-i18n="proj_card1_num">10.330 hab.</div>
+          <p data-i18n="proj_card1_p">Masquefa (Anoia, Barcelona) creix entre 200 i 225 persones cada any. La taxa d'atur se situa al 8,2%, amb tendència a la baixa.</p>
         </div>
         <div class="card reveal">
-          <h3>Part teòrica</h3>
-          <div class="num">9 capítols</div>
-          <p>Marc jurídic del pressupost municipal: com s'organitza, quin cicle segueix i com es classifiquen ingressos i despeses.</p>
+          <h3 data-i18n="proj_card2_h3">Part teòrica</h3>
+          <div class="num" data-i18n="proj_card2_num">9 capítols</div>
+          <p data-i18n="proj_card2_p">Marc jurídic del pressupost municipal: com s'organitza, quin cicle segueix i com es classifiquen ingressos i despeses.</p>
         </div>
         <div class="card reveal">
-          <h3>Part pràctica</h3>
-          <div class="num">2 fonts</div>
-          <p>Dades pressupostàries oficials 2024–2026 cedides per l'Ajuntament, contrastades amb una enquesta d'opinió pròpia.</p>
+          <h3 data-i18n="proj_card3_h3">Part pràctica</h3>
+          <div class="num" data-i18n="proj_card3_num">2 fonts</div>
+          <p data-i18n="proj_card3_p">Dades pressupostàries oficials 2024–2026 cedides per l'Ajuntament, contrastades amb una enquesta d'opinió pròpia.</p>
         </div>
       </div>
     </div>
@@ -100,15 +109,15 @@
   <section id="pressupost">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="eyebrow">02 · Pressupost municipal</p>
-        <h2>D'on vénen els diners i on van</h2>
-        <p>El pressupost ha passat de 16,75 M€ el 2024 a 17,34 M€ el 2026 (+3,5%), mantenint l'endeutament municipal molt per sota del límit legal del 75% — del 62% el 2024 al 43% el 2026.</p>
+        <p class="eyebrow" data-i18n="bud_eyebrow">02 · Pressupost municipal</p>
+        <h2 data-i18n="bud_h2">D'on vénen els diners i on van</h2>
+        <p data-i18n="bud_p">El pressupost ha passat de 16,75 M€ el 2024 a 17,34 M€ el 2026 (+3,5%), mantenint l'endeutament municipal molt per sota del límit legal del 75% — del 62% el 2024 al 43% el 2026.</p>
       </div>
 
       <div class="grid grid-2" style="margin-bottom:1.4rem;">
         <div class="chart-card reveal">
-          <h3>Ingressos per capítol</h3>
-          <p class="sub">Classificació econòmica · euros (€)</p>
+          <h3 data-i18n="bud_income_h3">Ingressos per capítol</h3>
+          <p class="sub" data-i18n="bud_income_sub">Classificació econòmica · euros (€)</p>
           <div class="tabs" data-year-tabs="income">
             <button class="tab" data-year="2024">2024</button>
             <button class="tab" data-year="2025">2025</button>
@@ -117,8 +126,8 @@
           <div class="chart-box"><canvas id="chart-income"></canvas></div>
         </div>
         <div class="chart-card reveal">
-          <h3>Despeses per capítol</h3>
-          <p class="sub">Classificació econòmica · euros (€)</p>
+          <h3 data-i18n="bud_expense_h3">Despeses per capítol</h3>
+          <p class="sub" data-i18n="bud_expense_sub">Classificació econòmica · euros (€)</p>
           <div class="tabs" data-year-tabs="expense">
             <button class="tab" data-year="2024">2024</button>
             <button class="tab" data-year="2025">2025</button>
@@ -130,13 +139,13 @@
 
       <div class="grid grid-2">
         <div class="chart-card reveal">
-          <h3>Evolució del pressupost total</h3>
-          <p class="sub">Ingressos vs. despeses, 2024–2026</p>
+          <h3 data-i18n="bud_totals_h3">Evolució del pressupost total</h3>
+          <p class="sub" data-i18n="bud_totals_sub">Ingressos vs. despeses, 2024–2026</p>
           <div class="chart-box"><canvas id="chart-totals"></canvas></div>
         </div>
         <div class="chart-card reveal">
-          <h3>Distribució de la despesa</h3>
-          <p class="sub">Percentatge per capítol</p>
+          <h3 data-i18n="bud_share_h3">Distribució de la despesa</h3>
+          <p class="sub" data-i18n="bud_share_sub">Percentatge per capítol</p>
           <div class="tabs" data-year-tabs="share">
             <button class="tab" data-year="2024">2024</button>
             <button class="tab" data-year="2025">2025</button>
@@ -146,8 +155,8 @@
         </div>
       </div>
 
-      <div class="callout reveal" style="margin-top:1.6rem;">
-        La partida de <strong>béns corrents i serveis</strong> (neteja, subministraments, contractes externs) és, i ha estat sempre, la més voluminosa: del 39,7% de la despesa el 2024 al 42,8% el 2026. Les <strong>inversions reals</strong> han baixat en pes relatiu (del 21,6% al 17,1%) tot i créixer en volum gràcies a subvencions d'altres administracions.
+      <div class="callout reveal" style="margin-top:1.6rem;" data-i18n="bud_callout">
+        La partida de béns corrents i serveis (neteja, subministraments, contractes externs) és, i ha estat sempre, la més voluminosa: del 39,7% de la despesa el 2024 al 42,8% el 2026. Les inversions reals han baixat en pes relatiu (del 21,6% al 17,1%) tot i créixer en volum gràcies a subvencions d'altres administracions.
       </div>
     </div>
   </section>
@@ -156,14 +165,14 @@
   <section id="arees">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="eyebrow">03 · Àrees estratègiques</p>
-        <h2>Educació, sanitat i seguretat, any per any</h2>
-        <p>Encara que educació i sanitat són competència de la Generalitat, l'Ajuntament hi participa de manera complementària. Aquestes tres àrees concentren bona part del debat ciutadà.</p>
+        <p class="eyebrow" data-i18n="area_eyebrow">03 · Àrees estratègiques</p>
+        <h2 data-i18n="area_h2">Educació, sanitat i seguretat, any per any</h2>
+        <p data-i18n="area_p">Encara que educació i sanitat són competència de la Generalitat, l'Ajuntament hi participa de manera complementària. Aquestes tres àrees concentren bona part del debat ciutadà.</p>
       </div>
 
       <div class="chart-card reveal" style="margin-bottom:1.6rem;">
-        <h3>Inversió en capital social per àrea</h3>
-        <p class="sub">Comparativa 2024 vs. 2026 · euros (€)</p>
+        <h3 data-i18n="area_chart_h3">Inversió en capital social per àrea</h3>
+        <p class="sub" data-i18n="area_chart_sub">Comparativa 2024 vs. 2026 · euros (€)</p>
         <div class="chart-box"><canvas id="chart-areas"></canvas></div>
       </div>
 
@@ -175,57 +184,57 @@
   <section id="enquesta">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="eyebrow">04 · Veu ciutadana</p>
-        <h2>Què en pensen els veïns i veïnes de Masquefa</h2>
-        <p>Enquesta pròpia difosa a través de xarxes socials, l'Ajuntament, l'Institut i el Casal de Joves i d'Avis · <strong>141 respostes vàlides</strong>.</p>
+        <p class="eyebrow" data-i18n="sur_eyebrow">04 · Veu ciutadana</p>
+        <h2 data-i18n="sur_h2">Què en pensen els veïns i veïnes de Masquefa</h2>
+        <p data-i18n="sur_p">Enquesta pròpia difosa a través de xarxes socials, l'Ajuntament, l'Institut i el Casal de Joves i d'Avis · <strong>141 respostes vàlides</strong>.</p>
       </div>
 
       <div class="chart-card reveal" style="margin-bottom:1.6rem;">
-        <h3>Percepció actual vs. desig d'inversió</h3>
-        <p class="sub">"On creus que s'inverteix més avui?" vs. "On caldria invertir més?" (fins a 3 opcions per persona)</p>
+        <h3 data-i18n="sur_perception_h3">Percepció actual vs. desig d'inversió</h3>
+        <p class="sub" data-i18n="sur_perception_sub">"On creus que s'inverteix més avui?" vs. "On caldria invertir més?" (fins a 3 opcions per persona)</p>
         <div class="chart-box tall"><canvas id="chart-perception"></canvas></div>
       </div>
 
       <div class="grid grid-2" style="margin-bottom:1.4rem;">
         <div class="chart-card reveal">
-          <h3>Relació impostos / qualitat del servei</h3>
-          <p class="sub">Com valoren el que paguen respecte al que reben</p>
+          <h3 data-i18n="sur_taxvalue_h3">Relació impostos / qualitat del servei</h3>
+          <p class="sub" data-i18n="sur_taxvalue_sub">Com valoren el que paguen respecte al que reben</p>
           <div class="pill-list">
-            <div class="pill-row"><div class="label-row"><span>Dolenta: pago molt per poca qualitat</span><span class="n">63</span></div><div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--rose)"></div></div></div>
-            <div class="pill-row"><div class="label-row"><span>Equilibrada: correspon al que pago</span><span class="n">38</span></div><div class="bar-track"><div class="bar-fill" style="width:60%;background:var(--ink-faint)"></div></div></div>
-            <div class="pill-row"><div class="label-row"><span>Molt dolenta: impostos alts, servei deficient</span><span class="n">36</span></div><div class="bar-track"><div class="bar-fill" style="width:57%;background:var(--rose)"></div></div></div>
-            <div class="pill-row"><div class="label-row"><span>Bona / molt bona</span><span class="n">2</span></div><div class="bar-track"><div class="bar-fill" style="width:3%;background:var(--teal)"></div></div></div>
+            <div class="pill-row"><div class="label-row"><span data-i18n="sur_tax_row1">Dolenta: pago molt per poca qualitat</span><span class="n">63</span></div><div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--rose)"></div></div></div>
+            <div class="pill-row"><div class="label-row"><span data-i18n="sur_tax_row2">Equilibrada: correspon al que pago</span><span class="n">38</span></div><div class="bar-track"><div class="bar-fill" style="width:60%;background:var(--ink-faint)"></div></div></div>
+            <div class="pill-row"><div class="label-row"><span data-i18n="sur_tax_row3">Molt dolenta: impostos alts, servei deficient</span><span class="n">36</span></div><div class="bar-track"><div class="bar-fill" style="width:57%;background:var(--rose)"></div></div></div>
+            <div class="pill-row"><div class="label-row"><span data-i18n="sur_tax_row4">Bona / molt bona</span><span class="n">2</span></div><div class="bar-track"><div class="bar-fill" style="width:3%;background:var(--teal)"></div></div></div>
           </div>
-          <p style="margin-top:1rem; font-size:.85rem; color:var(--ink-faint);"><strong style="color:var(--rose)">70%</strong> de les respostes valoren la relació impostos/serveis com a dolenta o molt dolenta.</p>
+          <p style="margin-top:1rem; font-size:.85rem; color:var(--ink-faint);"><strong style="color:var(--rose)">70%</strong> <span data-i18n="sur_tax_note">de les respostes valoren la relació impostos/serveis com a dolenta o molt dolenta.</span></p>
         </div>
         <div class="chart-card reveal">
-          <h3>Nota de transparència</h3>
-          <p class="sub">Del 0 al 5 · mitjana: <strong class="mono" style="color:var(--gold)">2,58 / 5</strong></p>
+          <h3 data-i18n="sur_transparency_h3">Nota de transparència</h3>
+          <p class="sub"><span data-i18n="sur_transparency_sub_prefix">Del 0 al 5 · mitjana: </span><strong class="mono" style="color:var(--gold)">2,58 / 5</strong></p>
           <div class="chart-box"><canvas id="chart-transparency"></canvas></div>
         </div>
       </div>
 
       <div class="grid grid-2">
         <div class="chart-card reveal">
-          <h3>Canal d'informació habitual</h3>
+          <h3 data-i18n="sur_channel_h3">Canal d'informació habitual</h3>
           <div class="pill-list" id="list-channel"></div>
         </div>
         <div class="chart-card reveal">
-          <h3>Àrea "menys perjudicial" de retallar</h3>
-          <p class="sub">Si l'Ajuntament hagués de reduir despesa</p>
+          <h3 data-i18n="sur_cut_h3">Àrea "menys perjudicial" de retallar</h3>
+          <p class="sub" data-i18n="sur_cut_sub">Si l'Ajuntament hagués de reduir despesa</p>
           <div class="pill-list" id="list-cut"></div>
         </div>
       </div>
 
       <div class="grid grid-2" style="margin-top:1.4rem;">
         <div class="chart-card reveal">
-          <h3>Projectes que demanen finançament urgent</h3>
-          <p class="sub">Temes agrupats a partir de les respostes obertes</p>
+          <h3 data-i18n="sur_urgent_h3">Projectes que demanen finançament urgent</h3>
+          <p class="sub" data-i18n="sur_urgent_sub">Temes agrupats a partir de les respostes obertes</p>
           <div class="pill-list" id="list-urgent"></div>
         </div>
         <div class="chart-card reveal">
-          <h3>On creuen que "sobra" pressupost</h3>
-          <p class="sub">Temes agrupats a partir de les respostes obertes</p>
+          <h3 data-i18n="sur_overfunded_h3">On creuen que "sobra" pressupost</h3>
+          <p class="sub" data-i18n="sur_urgent_sub">Temes agrupats a partir de les respostes obertes</p>
           <div class="pill-list" id="list-overfunded"></div>
         </div>
       </div>
@@ -236,14 +245,14 @@
   <section id="comparativa">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="eyebrow">05 · Percepció vs. realitat</p>
-        <h2>On coincideixen — i on no</h2>
-        <p>Les tres úniques àrees on disposem alhora de xifra real de creixement pressupostari i de dada de percepció ciutadana, cara a cara.</p>
+        <p class="eyebrow" data-i18n="cmp_eyebrow">05 · Percepció vs. realitat</p>
+        <h2 data-i18n="cmp_h2">On coincideixen — i on no</h2>
+        <p data-i18n="cmp_p">Les tres úniques àrees on disposem alhora de xifra real de creixement pressupostari i de dada de percepció ciutadana, cara a cara.</p>
       </div>
 
       <div class="compare-card reveal">
         <div id="compare-grid" class="compare-grid"><!-- generat per JS --></div>
-        <p class="gap-note">
+        <p class="gap-note" data-i18n-html="cmp_gapnote">
           <strong>Salut Pública</strong> és l'àrea que més gent voldria veure reforçada (63,8%) i la que menys gent creu que ja rep diners (7,1%) — i és també la que més ha crescut en xifres reals (+138,8%, arran del nou Centre de Dia). El repte no sembla ser de prioritats, sinó de <strong>comunicació</strong>: amb una nota mitjana de transparència de 2,58/5, bona part d'aquest esforç inversor passa desapercebut. En canvi, a <strong>Seguretat</strong> la inversió es manté pràcticament plana (−1%) tot i que gairebé la meitat de la població en voldria més — aquí sí que hi ha una diferència real entre demanda i resposta pressupostària.
         </p>
       </div>
@@ -255,27 +264,27 @@
     <div class="wrap">
       <div class="two-col">
         <div class="reveal">
-          <p class="eyebrow">06 · Metodologia</p>
-          <h2>Com s'ha construït aquest treball</h2>
-          <p style="color:var(--ink-muted); margin-top:1rem;">Metodologia mixta: recerca teòrica sobre el marc legal del pressupost públic, anàlisi quantitativa de les dades oficials cedides per l'Ajuntament de Masquefa i una enquesta sociològica pròpia per copsar la percepció ciutadana, sense oferir informació prèvia sobre el pressupost real per no condicionar les respostes.</p>
+          <p class="eyebrow" data-i18n="met_eyebrow">06 · Metodologia</p>
+          <h2 data-i18n="met_h2">Com s'ha construït aquest treball</h2>
+          <p style="color:var(--ink-muted); margin-top:1rem;" data-i18n="met_p">Metodologia mixta: recerca teòrica sobre el marc legal del pressupost públic, anàlisi quantitativa de les dades oficials cedides per l'Ajuntament de Masquefa i una enquesta sociològica pròpia per copsar la percepció ciutadana, sense oferir informació prèvia sobre el pressupost real per no condicionar les respostes.</p>
         </div>
         <div class="reveal">
           <div class="timeline">
             <div class="tl-item">
-              <h4>Marc teòric</h4>
-              <p>Definició del pressupost públic, classificacions (orgànica, per programes, econòmica), cicle pressupostari i mecanismes de control i transparència.</p>
+              <h4 data-i18n="met_tl1_h4">Marc teòric</h4>
+              <p data-i18n="met_tl1_p">Definició del pressupost públic, classificacions (orgànica, per programes, econòmica), cicle pressupostari i mecanismes de control i transparència.</p>
             </div>
             <div class="tl-item">
-              <h4>Recollida de dades pressupostàries</h4>
-              <p>Accés als pressupostos 2024, 2025 i 2026 de l'Ajuntament de Masquefa i a dades desagregades d'educació, sanitat i seguretat.</p>
+              <h4 data-i18n="met_tl2_h4">Recollida de dades pressupostàries</h4>
+              <p data-i18n="met_tl2_p">Accés als pressupostos 2024, 2025 i 2026 de l'Ajuntament de Masquefa i a dades desagregades d'educació, sanitat i seguretat.</p>
             </div>
             <div class="tl-item">
-              <h4>Disseny i difusió de l'enquesta</h4>
-              <p>Enquesta anònima difosa per xarxes socials, l'Ajuntament, l'Institut Font del Roure, el Casal de Joves i el Casal d'Avis. 141 respostes vàlides.</p>
+              <h4 data-i18n="met_tl3_h4">Disseny i difusió de l'enquesta</h4>
+              <p data-i18n="met_tl3_p">Enquesta anònima difosa per xarxes socials, l'Ajuntament, l'Institut Font del Roure, el Casal de Joves i el Casal d'Avis. 141 respostes vàlides.</p>
             </div>
             <div class="tl-item">
-              <h4>Anàlisi i comparativa</h4>
-              <p>Encreuament de les dades reals amb la percepció recollida per contrastar la hipòtesi inicial.</p>
+              <h4 data-i18n="met_tl4_h4">Anàlisi i comparativa</h4>
+              <p data-i18n="met_tl4_p">Encreuament de les dades reals amb la percepció recollida per contrastar la hipòtesi inicial.</p>
             </div>
           </div>
         </div>
@@ -289,32 +298,33 @@
   <div class="wrap">
     <div>
       <a class="brand" href="#top" style="margin-bottom:.8rem; display:inline-flex;">Pressupost <span class="place">Masquefa</span></a>
-      <p style="max-width:32ch;">Treball de Recerca — "Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?"<br>Víctor M.A. · tutora Yrina A. · Institut de Masquefa, 2025–2027.</p>
+      <p style="max-width:32ch;" data-i18n-html="foot_tagline">Treball de Recerca — "Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?"<br>Víctor Molero Alonso · tutora Yrina Aparicio Torres · Institut de Masquefa, 2025–2027.</p>
     </div>
     <div class="cols">
       <div>
-        <h5>Font</h5>
+        <h5 data-i18n="foot_font_h5">Font</h5>
         <ul>
-          <li>Ajuntament de Masquefa</li>
-          <li>Enquesta pròpia (n=141)</li>
+          <li data-i18n="foot_font_li1">Ajuntament de Masquefa</li>
+          <li data-i18n="foot_font_li2">Enquesta pròpia (n=141)</li>
         </ul>
       </div>
       <div>
-        <h5>Projecte</h5>
+        <h5 data-i18n="foot_proj_h5">Projecte</h5>
         <ul>
-          <li><a href="https://github.com/25victormolero/tdr-pressupost-masquefa" target="_blank" rel="noopener">Codi a GitHub</a></li>
-          <li><a href="#projecte">El projecte</a></li>
-          <li><a href="#metodologia">Metodologia</a></li>
+          <li><a href="https://github.com/25victormolero/tdr-pressupost-masquefa" target="_blank" rel="noopener" data-i18n="foot_link_codi">Codi a GitHub</a></li>
+          <li><a href="#projecte" data-i18n="foot_link_proj">El projecte</a></li>
+          <li><a href="#metodologia" data-i18n="foot_link_met">Metodologia</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wrap" style="margin-top:2rem; font-size:.78rem;">© <span id="current-year"></span> Víctor M.A.. Dades del pressupost públic de l'Ajuntament de Masquefa.</div>
+  <div class="wrap" style="margin-top:2rem; font-size:.78rem;">© <span id="current-year"></span> <span data-i18n="foot_copyright_suffix">Víctor Molero Alonso. Dades del pressupost públic de l'Ajuntament de Masquefa.</span></div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="data/data.js"></script>
-<script src="js/main.js?v=2"></script>
+<script src="data/i18n.js"></script>
+<script src="js/main.js?v=3"></script>
 <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(console.error);
