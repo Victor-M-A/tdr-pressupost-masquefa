@@ -46,7 +46,7 @@ d'aquestes dades des de `js/main.js`.
 1. Puja aquests fitxers a la branca `main` del repositori (arrel del repo).
 2. A GitHub → **Settings → Pages** → *Source*: `Deploy from a branch` →
    branca `main`, carpeta `/ (root)`.
-3. La web quedarà publicada a `(https://github.com/Victor-M-A/tdr-pressupost-masquefa.git)`.
+3. La web quedarà publicada a `(https://victor-m-a.github.io/tdr-pressupost-masquefa/)`.
 
 ## Tecnologia
 
