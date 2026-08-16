@@ -642,11 +642,11 @@ const I18N_UI = {
     "gl": "Cruzamento dos datos reais coa percepción recollida para contrastar a hipótese inicial."
   },
   "foot_tagline": {
-    "ca": "Treball de Recerca — \"Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?\"<br>Víctor Molero Alonso · tutora Yrina Aparicio Torres · Institut de Masquefa, 2025–2027.",
-    "es": "Trabajo de Investigación — \"Análisis de un presupuesto público: ¿en qué se gasta el dinero y cómo se financian las administraciones?\"<br>Víctor Molero Alonso · tutora Yrina Aparicio Torres · Institut de Masquefa, 2025–2027.",
-    "en": "Research Project — \"Analysis of a Public Budget: What is the money spent on and how are administrations financed?\"<br>Víctor Molero Alonso · supervisor Yrina Aparicio Torres · Institut de Masquefa, 2025–2027.",
-    "eu": "Ikerketa Lana — \"Aurrekontu publiko baten analisia: zertan gastatzen da dirua eta nola finantzatzen dira administrazioak?\"<br>Víctor Molero Alonso · tutorea Yrina Aparicio Torres · Institut de Masquefa, 2025–2027.",
-    "gl": "Traballo de Investigación — \"Análise dun orzamento público: en que se gasta o diñeiro e como se financian as administracións?\"<br>Víctor Molero Alonso · titora Yrina Aparicio Torres · Institut de Masquefa, 2025–2027."
+    "ca": "Treball de Recerca — \"Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?\"<br>Víctor M.A. · tutora Yrina A. · Institut de Masquefa, 2025–2027.",
+    "es": "Trabajo de Investigación — \"Análisis de un presupuesto público: ¿en qué se gasta el dinero y cómo se financian las administraciones?\"<br>Víctor M.A. · tutora Yrina A. · Institut de Masquefa, 2025–2027.",
+    "en": "Research Project — \"Analysis of a Public Budget: What is the money spent on and how are administrations financed?\"<br>Víctor M.A. · supervisor Yrina A. · Institut de Masquefa, 2025–2027.",
+    "eu": "Ikerketa Lana — \"Aurrekontu publiko baten analisia: zertan gastatzen da dirua eta nola finantzatzen dira administrazioak?\"<br>Víctor M.A. · tutorea Yrina A. · Institut de Masquefa, 2025–2027.",
+    "gl": "Traballo de Investigación — \"Análise dun orzamento público: en que se gasta o diñeiro e como se financian as administracións?\"<br>Víctor M.A. · titora Yrina A. · Institut de Masquefa, 2025–2027."
   },
   "foot_font_h5": {
     "ca": "Font",
@@ -698,11 +698,11 @@ const I18N_UI = {
     "gl": "Metodoloxía"
   },
   "foot_copyright_suffix": {
-    "ca": "Víctor Molero Alonso. Dades del pressupost públic de l'Ajuntament de Masquefa.",
-    "es": "Víctor Molero Alonso. Datos del presupuesto público del Ayuntamiento de Masquefa.",
-    "en": "Víctor Molero Alonso. Data from the public budget of Masquefa Town Hall.",
-    "eu": "Víctor Molero Alonso. Masquefako Udalaren aurrekontu publikoaren datuak.",
-    "gl": "Víctor Molero Alonso. Datos do orzamento público do Concello de Masquefa."
+    "ca": "Víctor M.A. Dades del pressupost públic de l'Ajuntament de Masquefa.",
+    "es": "Víctor M.A. Datos del presupuesto público del Ayuntamiento de Masquefa.",
+    "en": "Víctor M.A. Data from the public budget of Masquefa Town Hall.",
+    "eu": "Víctor M.A. Masquefako Udalaren aurrekontu publikoaren datuak.",
+    "gl": "Víctor M.A. Datos do orzamento público do Concello de Masquefa."
   },
   "chart_income_total": {
     "ca": "Ingressos totals",
