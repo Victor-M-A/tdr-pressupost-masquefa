@@ -63,4 +63,4 @@ d'aquestes dades des de `js/main.js`.
 
 ## Autoria
 
-Víctor Molero Alonso · tutora Yrina Aparicio Torres · Institut de Masquefa.
+Víctor M.A. · tutora Yrina A. · Institut de Masquefa.
