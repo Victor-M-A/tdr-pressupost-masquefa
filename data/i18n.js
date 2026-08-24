@@ -774,6 +774,20 @@ const I18N_UI = {
     "eu": "Finantza-aktiboak",
     "gl": "Activos financeiros"
   },
+  "aoc_context_text": {
+    "ca": "Resulta interessant contrastar aquesta diferència amb una informació externa: l'any 2025, l'AOC (Administració Oberta de Catalunya) va reconèixer l'Ajuntament de Masquefa com un dels 10 municipis d'entre 5.001 i 20.000 habitants més destacats en transformació digital i govern obert de Catalunya — tot i que la ciutadania encara puntua la transparència pressupostària amb només un 2,58 sobre 5.",
+    "es": "Resulta interesante contrastar esta diferencia con una información externa: en 2025, la AOC (Administración Abierta de Cataluña) reconoció al Ayuntamiento de Masquefa como uno de los 10 municipios de entre 5.001 y 20.000 habitantes más destacados en transformación digital y gobierno abierto de Cataluña — aunque la ciudadanía todavía puntúa la transparencia presupuestaria con solo un 2,58 sobre 5.",
+    "en": "It's interesting to contrast this gap with some external information: in 2025, the AOC (Catalonia's Open Administration Consortium) recognised Masquefa Town Hall as one of the top 10 municipalities with 5,001 to 20,000 residents for digital transformation and open government in Catalonia — even though residents still rate budget transparency at just 2.58 out of 5.",
+    "eu": "Interesgarria da alde hori kanpo-informazio batekin alderatzea: 2025ean, AOCk (Kataluniako Administrazio Irekiaren Kontsortzioa) Masquefako Udala aitortu zuen 5.001 eta 20.000 biztanle bitarteko udalerrien artean eraldaketa digitalean eta gobernu irekian gehien nabarmendu diren 10 udaletako bat gisa — nahiz eta herritarrek oraindik aurrekontu-gardentasunari 2,58/5eko nota baino ez eman.",
+    "gl": "Resulta interesante contrastar esta diferenza cunha información externa: en 2025, a AOC (Administración Aberta de Cataluña) recoñeceu ao Concello de Masquefa como un dos 10 municipios de entre 5.001 e 20.000 habitantes máis destacados en transformación dixital e goberno aberto de Cataluña — aínda que a cidadanía segue puntuando a transparencia orzamentaria con só un 2,58 sobre 5."
+  },
+  "aoc_disclaimer": {
+    "ca": "Informació recollida de les xarxes socials oficials de l'Ajuntament, a títol merament informatiu. L'autor d'aquest projecte no té cap vinculació amb l'Ajuntament de Masquefa ni amb aquest reconeixement.",
+    "es": "Información recogida de las redes sociales oficiales del Ayuntamiento, a título meramente informativo. El autor de este proyecto no tiene ninguna vinculación con el Ayuntamiento de Masquefa ni con este reconocimiento.",
+    "en": "Information gathered from the Town Hall's official social media, for informational purposes only. The author of this project has no affiliation with Masquefa Town Hall or with this recognition.",
+    "eu": "Udalaren sare sozial ofizialetatik jasotako informazioa da, soilik informazio-izaerakoa. Proiektu honen egileak ez du inolako loturarik Masquefako Udalarekin ez eta aitorpen honekin.",
+    "gl": "Información recollida das redes sociais oficiais do Concello, a título meramente informativo. O autor deste proxecto non ten ningunha vinculación co Concello de Masquefa nin con este recoñecemento."
+  },
   "chart_nota": {
     "ca": "Nota",
     "es": "Nota",
