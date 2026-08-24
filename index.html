@@ -37,13 +37,34 @@
       </ul>
     </nav>
     <div style="display:flex; align-items:center; gap:.6rem;">
-      <select id="lang-switch" aria-label="Idioma / Language" style="font-family:var(--font-mono); font-size:.78rem; background:var(--bg-card); color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:.4rem .5rem; cursor:pointer;">
-        <option value="ca">CA</option>
-        <option value="es">ES</option>
-        <option value="en">EN</option>
-        <option value="eu">EU</option>
-        <option value="gl">GL</option>
-      </select>
+      <div class="lang-switch" id="lang-switch">
+        <button class="lang-switch-btn" id="lang-switch-btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Idioma / Language">
+          <span class="lang-flag" id="lang-current-flag"></span>
+          <span class="lang-code" id="lang-current-code">CA</span>
+        </button>
+        <ul class="lang-switch-menu" id="lang-switch-menu" role="listbox">
+          <li role="option" data-lang="ca">
+            <span class="lang-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#FCDD09"/><rect y="4.44" width="60" height="4.44" fill="#DA121A"/><rect y="13.33" width="60" height="4.44" fill="#DA121A"/><rect y="22.22" width="60" height="4.44" fill="#DA121A"/><rect y="31.11" width="60" height="4.44" fill="#DA121A"/></svg></span>
+            <span>Català</span>
+          </li>
+          <li role="option" data-lang="es">
+            <span class="lang-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#AA151B"/><rect y="10" width="60" height="20" fill="#F1BF00"/></svg></span>
+            <span>Castellano</span>
+          </li>
+          <li role="option" data-lang="en">
+            <span class="lang-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#012169"/><line x1="0" y1="0" x2="60" y2="40" stroke="#fff" stroke-width="8"/><line x1="60" y1="0" x2="0" y2="40" stroke="#fff" stroke-width="8"/><line x1="0" y1="0" x2="60" y2="40" stroke="#C8102E" stroke-width="3"/><line x1="60" y1="0" x2="0" y2="40" stroke="#C8102E" stroke-width="3"/><rect x="24" width="12" height="40" fill="#fff"/><rect y="14" width="60" height="12" fill="#fff"/><rect x="27" width="6" height="40" fill="#C8102E"/><rect y="17" width="60" height="6" fill="#C8102E"/></svg></span>
+            <span>English</span>
+          </li>
+          <li role="option" data-lang="eu">
+            <span class="lang-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#D3172D"/><line x1="0" y1="0" x2="60" y2="40" stroke="#009B48" stroke-width="7"/><line x1="60" y1="0" x2="0" y2="40" stroke="#009B48" stroke-width="7"/><rect x="26" width="8" height="40" fill="#fff"/><rect y="16" width="60" height="8" fill="#fff"/></svg></span>
+            <span>Euskera</span>
+          </li>
+          <li role="option" data-lang="gl">
+            <span class="lang-flag"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#fff"/><line x1="0" y1="40" x2="60" y2="0" stroke="#0090CC" stroke-width="10"/></svg></span>
+            <span>Galego</span>
+          </li>
+        </ul>
+      </div>
       <button class="nav-toggle" aria-label="Obrir menú" aria-expanded="false" data-i18n-attr-aria-label="nav_menu_label">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 4h16M1 9h16M1 14h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
