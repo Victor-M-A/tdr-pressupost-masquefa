@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.app_25victormolero.twa",
+        "sha256_cert_fingerprints": ["EB:6D:4F:2A:D6:2B:25:34:BB:7F:F9:88:33:E1:5A:B9:56:84:B9:DD:DD:B7:19:8A:F9:9C:D7:6E:12:F3:D5:95"]
+      }
+    }]
