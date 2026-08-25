@@ -1,23 +1,32 @@
 /* ==========================================================================
    Service Worker — Pressupost Vs Percepció (Masquefa)
-   Cache bàsic perquè la app funcioni offline i sigui instal·lable com a PWA.
+   Cache complet perquè la app funcioni offline i sigui instal·lable com a PWA.
    ========================================================================== */
 
-const CACHE_NAME = 'pressupost-masquefa-v1';
+const CACHE_NAME = 'pressupost-masquefa-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './css/styles.css',
-  './js/main.js',
+  './js/main.js?v=3',
   './data/data.js',
+  './data/i18n.js',
   './manifest.json',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './images/reconeixement-aoc.jpg',
+  'https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
+    caches.open(CACHE_NAME).then((cache) =>
+      Promise.all(
+        ASSETS_TO_CACHE.map((url) =>
+          cache.add(url).catch((err) => console.warn('No s\'ha pogut precarregar:', url, err))
+        )
+      )
+    )
   );
   self.skipWaiting();
 });
