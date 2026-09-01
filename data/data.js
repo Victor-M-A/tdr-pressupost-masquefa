@@ -5,8 +5,8 @@
 
 const BUDGET = {
   years: [2024, 2025, 2026],
-  totalIncome: { 2024: 16750872.97, 2025: 16615523.00, 2026: 17340448.83 },
-  totalExpense: { 2024: 16750872.97, 2025: 16615523.00, 2026: 17340448.83 },
+  totalIncome: { 2024: 16750872.97, 2025: 16185901.83, 2026: 17340448.83 },
+  totalExpense: { 2024: 16750872.97, 2025: 16185901.83, 2026: 17340448.83 },
   debtRatio: { 2024: 62, 2025: 45, 2026: 43 }, // % endeutament, límit legal 75%
 
   incomeChapters: {
@@ -23,7 +23,7 @@ const BUDGET = {
     ],
     short: ["Imp. directes","Imp. indirectes","Taxes i preus","Transf. corrents","Ing. patrimonials","Alienació inv.","Transf. capital","Actius fin.","Passius fin."],
     2024: [5178289.23, 650000, 3959590.50, 3724914.61, 250851.39, 0, 1187842.62, 22000, 1777384.62],
-    2025: [5707470.28, 432000, 3905695.37, 4303716.96, 260129.33, 196500, 987131.84, 25000, 797879.22],
+    2025: [5707470.28, 432000, 3871088.97, 3892902.10, 261129.33, 196500, 1001931.93, 25000, 797879.22],
     2026: [5852527.06, 332000, 3711572.28, 4271673.32, 204642.65, 0, 1913004.98, 35000, 1020028.54]
   },
 
@@ -40,13 +40,13 @@ const BUDGET = {
     ],
     short: ["Personal","Béns i serveis","Desp. financeres","Transf. corrents","Inversions reals","Transf. capital","Actius fin.","Passius fin."],
     2024: [4633012.65, 6649868.84, 217850, 614314.24, 3610227.24, 15000, 22000, 988600],
-    2025: [4807726.13, 6943064.40, 230259.35, 616050.16, 2890893.82, 25000, 25000, 797879.22],
+    2025: [4933908.95, 7041803.64, 235359.35, 673118.00, 2384701.15, 25000, 25000, 892010.74],
     2026: [4936035.77, 7417579.05, 144931.91, 719948.99, 2969533.52, 25000, 35000, 1092419.59]
   },
 
   expenseSharePct: {
     2024: { personal: 27.66, bens: 39.70, financeres: 1.30, transfCorrents: 3.67, inversions: 21.55, transfCapital: 0.09, actius: 0.13, passius: 5.90 },
-    2025: { personal: 29.43, bens: 42.50, financeres: 1.41, transfCorrents: 3.77, inversions: 17.70, transfCapital: 0.15, actius: 0.15, passius: 4.88 },
+    2025: { personal: 30.49, bens: 43.51, financeres: 1.45, transfCorrents: 4.16, inversions: 14.74, transfCapital: 0.15, actius: 0.15, passius: 5.51 },
     2026: { personal: 28.47, bens: 42.78, financeres: 0.84, transfCorrents: 4.15, inversions: 17.12, transfCapital: 0.14, actius: 0.20, passius: 6.30 }
   },
 
