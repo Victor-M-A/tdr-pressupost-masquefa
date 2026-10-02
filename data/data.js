@@ -1,6 +1,6 @@
 /* ==========================================================================
    Dades — Anàlisi del pressupost públic de Masquefa
-   Font: Treball de Recerca "Anàlisi d'un pressupost públic" (Víctor M.A., Institut de Masquefa, 2025-2027) + Enquesta d'opinió pròpia (n=141)
+   Font: Treball de Recerca "Anàlisi d'un pressupost públic" (Víctor M.A. , 2025-2027) + Enquesta d'opinió pròpia (n=141)
    ========================================================================== */
 
 const BUDGET = {
