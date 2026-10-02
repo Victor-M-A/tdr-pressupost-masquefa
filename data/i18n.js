@@ -68,11 +68,11 @@ const I18N_UI = {
     "gl": "Abrir menú"
   },
   "hero_eyebrow": {
-    "ca": "Treball de Recerca · Institut de Masquefa · 2025–2027",
-    "es": "Trabajo de Investigación · Institut de Masquefa · 2025–2027",
-    "en": "Research Project · Institut de Masquefa · 2025–2027",
-    "eu": "Ikerketa Lana · Institut de Masquefa · 2025–2027",
-    "gl": "Traballo de Investigación · Institut de Masquefa · 2025–2027"
+    "ca": "Treball de Recerca · 2025–2027",
+    "es": "Trabajo de Investigación · 2025–2027",
+    "en": "Research Project · 2025–2027",
+    "eu": "Ikerketa Lana · 2025–2027",
+    "gl": "Traballo de Investigación · 2025–2027"
   },
   "hero_title_plain": {
     "ca": "El pressupost diu una cosa. ",
