@@ -3,12 +3,12 @@
    Cache complet perquè la app funcioni offline i sigui instal·lable com a PWA.
    ========================================================================== */
 
-const CACHE_NAME = 'pressupost-masquefa-v3';
+const CACHE_NAME = 'pressupost-masquefa-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './css/styles.css',
-  './js/main.js?v=3',
+  './js/main.js?v=4',
   './data/data.js',
   './data/i18n.js',
   './manifest.json',
