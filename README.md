@@ -1,8 +1,7 @@
 # Anàlisi d'un pressupost públic — Masquefa
 
 Web del Treball de Recerca **"Anàlisi d'un pressupost públic: en què es gasten
-els diners i com es financen les administracions?"** (Víctor Molero Alonso,
-Institut de Masquefa, 2025–2027).
+els diners i com es financen les administracions?"** (Víctor Molero Alonso,2025–2027).
 
 La web confronta el pressupost municipal real de Masquefa (2024–2026) amb la
 percepció ciutadana recollida a través d'una enquesta pròpia (141 respostes).
@@ -63,4 +62,4 @@ d'aquestes dades des de `js/main.js`.
 
 ## Autoria
 
-Víctor M.A. · tutora Yrina A. · Institut de Masquefa.
+Víctor M.A.
