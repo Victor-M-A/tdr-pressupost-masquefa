@@ -642,11 +642,11 @@ const I18N_UI = {
     "gl": "Cruzamento dos datos reais coa percepción recollida para contrastar a hipótese inicial."
   },
   "foot_tagline": {
-    "ca": "Treball de Recerca — \"Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?\"<br>Víctor M.A. · tutora Yrina A. · Institut de Masquefa, 2025–2027.",
-    "es": "Trabajo de Investigación — \"Análisis de un presupuesto público: ¿en qué se gasta el dinero y cómo se financian las administraciones?\"<br>Víctor M.A. · tutora Yrina A. · Institut de Masquefa, 2025–2027.",
-    "en": "Research Project — \"Analysis of a Public Budget: What is the money spent on and how are administrations financed?\"<br>Víctor M.A. · supervisor Yrina A. · Institut de Masquefa, 2025–2027.",
-    "eu": "Ikerketa Lana — \"Aurrekontu publiko baten analisia: zertan gastatzen da dirua eta nola finantzatzen dira administrazioak?\"<br>Víctor M.A. · tutorea Yrina A. · Institut de Masquefa, 2025–2027.",
-    "gl": "Traballo de Investigación — \"Análise dun orzamento público: en que se gasta o diñeiro e como se financian as administracións?\"<br>Víctor M.A. · titora Yrina A. · Institut de Masquefa, 2025–2027."
+    "ca": "Treball de Recerca — \"Anàlisi d'un pressupost públic: en què es gasten els diners i com es financen les administracions?\"<br>Víctor M.A., 2025–2027.",
+    "es": "Trabajo de Investigación — \"Análisis de un presupuesto público: ¿en qué se gasta el dinero y cómo se financian las administraciones?\"<br>Víctor M.A., 2025–2027.",
+    "en": "Research Project — \"Analysis of a Public Budget: What is the money spent on and how are administrations financed?\"<br>Víctor M.A., 2025–2027.",
+    "eu": "Ikerketa Lana — \"Aurrekontu publiko baten analisia: zertan gastatzen da dirua eta nola finantzatzen dira administrazioak?\"<br>Víctor M.A., 2025–2027.",
+    "gl": "Traballo de Investigación — \"Análise dun orzamento público: en que se gasta o diñeiro e como se financian as administracións?\"<br>Víctor M.A., 2025–2027."
   },
   "foot_font_h5": {
     "ca": "Font",
